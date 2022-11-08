@@ -107,6 +107,7 @@ const pintarCarrito= ()=>{
 
 
     pintarFooter()
+    
     //guardando mi coleccion de objetos a string plano a local storage
     localStorage.setItem('carrito',JSON.stringify(carrito))
 }
@@ -131,6 +132,11 @@ const pintarFooter=()=>
    const btnVaciar=document.getElementById('vaciar-carrito')
    btnVaciar.addEventListener('click',()=>{
       carrito={}
+      Swal.fire({
+        title: 'Carrito vacio',
+        icon: 'info',
+       
+      })
       pintarCarrito()
    })
 }
@@ -144,7 +150,7 @@ const btnAccion = e => {
         const articulo=carrito[e.target.dataset.id]
         articulo.cantidad= carrito[e.target.dataset.id].cantidad +1
         carrito[e.target.dataset.id]={...articulo}
-
+        
         pintarCarrito()
     }
 

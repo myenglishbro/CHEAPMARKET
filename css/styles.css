@@ -1,0 +1,458 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap");
+.titulo {
+  font-weight: 600;
+}
+
+#footer {
+  background-color: rgb(0, 153, 153);
+}
+
+.fixing {
+  background-color: rgb(0, 153, 153);
+}
+
+.fixing-background {
+  background-image: url(../assets/img/portada-tutorias.png);
+  background-repeat: no-repeat;
+  background-position: 80%;
+  background-size: cover;
+  position: relative;
+  height: 350px;
+}
+
+.fixing-background2 {
+  background-image: url(../assets/img/final222.png);
+  background-repeat: no-repeat;
+  background-position: 80%;
+  background-size: cover;
+  position: relative;
+  height: 350px;
+}
+
+.fixing-background3 {
+  background-image: url(../assets/img/jumping.png);
+  background-repeat: no-repeat;
+  background-position: 80%;
+  background-size: cover;
+  position: relative;
+  height: 350px;
+}
+
+.btn-main, .btn-main-s {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  background-color: rgb(0, 153, 153);
+  color: white;
+  border: solid 1px rgb(0, 153, 153);
+}
+.btn-main:hover, .btn-main-s:hover {
+  background-color: white;
+  color: rgb(0, 153, 153);
+  border: solid 1px rgb(0, 153, 153);
+}
+.btn-main-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.btn-sec, .btn-sec-s {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+.btn-sec:hover, .btn-sec-s:hover {
+  color: black;
+}
+.btn-sec-s {
+  font-size: 0.75rem;
+  padding: 0.1rem 1rem;
+}
+
+.main-menu li {
+  font-size: 1rem;
+  background-color: rgb(0, 153, 153);
+}
+.main-menu li a {
+  color: white;
+  text-decoration: none;
+}
+.main-menu li a:hover {
+  text-decoration: underline;
+}
+
+.icon-sm i {
+  font-size: 1rem;
+  color: rgb(0, 153, 153);
+  padding: 0.4rem 0.65rem;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2509803922);
+}
+
+.benefit {
+  display: flex;
+  flex-direction: column;
+}
+.benefit .iconbox {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 153, 153);
+  color: var(--white);
+  font-size: 32px;
+  border-radius: 100px;
+  flex: none;
+}
+.benefit .description .title {
+  font-size: 2rem;
+  text-align: center;
+}
+.benefit .description .text {
+  font-weight: 600;
+  text-align: center;
+}
+.benefit .description .cta {
+  margin-top: 3rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+.social-icons a {
+  width: 34px;
+  height: 34px;
+  background-color: rgb(0, 153, 153);
+  border-radius: 2px solid white;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  margin-left: 5px;
+  transition: all 0.4s ease;
+  border: 2px solid rgb(0, 153, 153);
+}
+.social-icons a:hover {
+  color: var(--primary);
+  background-color: transparent;
+  border-color: rgb(0, 153, 153);
+}
+
+form input.form-control {
+  height: 56px;
+}
+
+form .form-control {
+  border: transparent;
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+html {
+  min-width: 100vw;
+}
+
+:root {
+  --primary: #0d6efd;
+  --dark: #21252f;
+  --body: #888;
+  --white: #ffffff;
+  --box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  line-height: 1.7;
+  color: var(--body);
+}
+
+h1, h2, h3, h4, h5, h6,
+.display-4 {
+  color: var(--dark);
+  font-weight: 700;
+}
+
+a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url(../assets/img/cover.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+}
+
+.hero::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 153, 153, 0.5);
+  z-index: -1;
+}
+
+.hero2 {
+  background-image: url(../assets/img/jumping.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+}
+
+.hero2::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 153, 153, 0.5);
+  z-index: -1;
+}
+
+.sec-plataforma .col-img {
+  background-image: url(../assets/img/plataforma.PNG);
+  background-position: right;
+  background-size: auto;
+  min-height: 500px;
+}
+
+.sec-libro .col-img {
+  background-image: url(../assets/img/footer-gril.jpeg);
+  background-position: right;
+  background-size: contain;
+  min-height: 500px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Sora, "sans-serif";
+  line-height: 1.7;
+}
+
+.card-border {
+  border: solid 10px white;
+  border-radius: 20px;
+  transition: all ease-out 0.2s;
+  overflow: hidden;
+  background-color: #e1f0e6;
+}
+.card-border:hover {
+  transform: scale(1.05);
+}
+
+.tiktok, .add-style {
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+}
+
+nav {
+  background-color: rgb(0, 153, 153);
+}
+
+.logo {
+  max-width: 10rem;
+}
+
+.col-img {
+  background-image: url(../assets/img/home-pic.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.sec-features {
+  width: 100%;
+  max-width: 992px;
+  margin: auto;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec-features .intro {
+  text-align: center;
+}
+.sec-features .intro h3 {
+  font-size: 1.8rem;
+}
+.sec-features .intro p {
+  font-size: 0.8rem;
+  color: rgb(0, 153, 153);
+}
+.sec-features .features {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.sec-features .features .text {
+  padding: 2rem 0;
+  flex: 1;
+}
+.sec-features .features .text .feature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sec-features .features .text .feature .description {
+  margin-left: 1rem;
+  max-width: 20rem;
+}
+.sec-features .features .text .feature .description .description-title {
+  font-size: 1.15rem;
+}
+.sec-features .features .text .feature .description .description-text {
+  font-size: 1rem;
+}
+.sec-features .features .image img {
+  max-width: 20rem;
+}
+
+.sec-benefits {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.service {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+.service::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background-color: rgb(0, 153, 153);
+  z-index: -1;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+.service:hover .iconbox {
+  background-color: var(--white);
+  color: rgb(0, 153, 153);
+}
+.service:hover h5 {
+  color: var(--white);
+}
+.service:hover p {
+  color: var(--white);
+}
+.service:hover::after {
+  opacity: 1;
+  top: 0;
+}
+
+.card-effect {
+  box-shadow: var(--box-shadow);
+  background-color: var(--white);
+  padding: 25px;
+  transition: all 0.35s ease;
+}
+.card-effect:hover {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+.sec-kpis {
+  display: flex;
+  width: 100%;
+  background-color: rgb(0, 153, 153);
+  color: white;
+  padding: 4rem;
+}
+.sec-kpis .kpi {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec-kpis .kpi .number {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.sec-kpis .kpi .desc {
+  font-size: 0.9;
+  color: white;
+}
+
+.sec-frase {
+  background-image: url(../assets/img/portada-tutorias.png);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+}
+.sec-frase ::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 153, 153, 0.5);
+  z-index: -1;
+}
+
+.sec-footer .footer-top {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: var(--dark);
+}
+.sec-footer .footer-top a {
+  color: var(--body);
+}
+.sec-footer .footer-top a:hover {
+  color: var(--white);
+}
+.sec-footer .footer-bottom {
+  background-color: #242933;
+}
+
+@media (max-width: 768px) {
+  .sec-footer-cta {
+    width: 100%;
+    text-align: center;
+  }
+  .sec-benefits .intro {
+    text-align: center;
+  }
+  .sec-benefits .intro h3 {
+    font-size: 2rem;
+  }
+  .sec-features .intro h3 {
+    font-size: 2rem;
+  }
+  .sec-features .intro p {
+    font-size: 1rem;
+  }
+  .sec-kpis {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec-kpis .kpi {
+    flex: 1;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
