@@ -1,36 +1,36 @@
 [
     {
-      "precio": 500,
+      "precio": 100,
       "id": 1,
       "title": "Curso de Inglés Básico A1",
       "thumbnailUrl": "https://i.ibb.co/HVk3DsB/Portada-para-CD-lbum-de-M-sica-Trap-con-Fotograf-a-a-color-letras-blancas-y-fondo-negro.png["
     },
     {
-      "precio": 300,
+      "precio": 100,
       "id": 2,
       "title": "Curso de Inglés Básico A2",
       "thumbnailUrl": "https://i.ibb.co/hMCXfQx/2.png"
     },
     {
-      "precio": 100,
+      "precio": 150,
       "id": 3,
       "title": "Curso de Inglés Intermedio B1",
       "thumbnailUrl": "https://i.ibb.co/jwVyMqv/3.png"
     },
     {
-      "precio": 50,
+      "precio": 150,
       "id": 4,
       "title": "Curso de Inglés Intermedio B2",
       "thumbnailUrl": "https://i.ibb.co/dJDCxM1/4.png"
     },
     {
-      "precio": 10,
+      "precio": 200,
       "id": 5,
       "title": "Curso de Inglés Intermedio C1",
       "thumbnailUrl": "https://i.ibb.co/xLTY2SV/5.png"
     },
     {
-      "precio": 150,
+      "precio": 200,
       "id": 6,
       "title": "Curso de Inglés Intermedio C2",
       "thumbnailUrl": "https://i.ibb.co/gjLdDQj/6.png"
